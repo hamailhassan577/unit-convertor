@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Main container which contains everything */
+
+.main-container {
+    width: 500px;
+    padding-bottom: 15px;
+    background-color: #1F2937
+}
+
+/* Top portion on the convertor */
+
+.top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    background-color: #6943FF;
+}
+
+
+/* Main heading styles  */
+.main-heading {
+    font-size: 25px;
+}
+
+
+/* Input and button styles to center them */
+
+input, button {
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+/* Input styles  */
+
+input {
+    background-color: transparent;
+    border: solid 2px #B295FF;
+    cursor: pointer;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    box-shadow: none;
+    text-shadow: 0 0 0 #2196f3
+}
+
+input:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+/* Button Styles  */
+
+button {
+    height: 30px;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+/* Main box styling  */
+
+.main-box {
+    text-align: center;
+    background-color: #273549;
+    padding: 20px 50px;
+    margin: 20px 20px;
+}
+
+
+.main-box-heading {
+    font-size: 16px;
+    color: #CCC1FF;
+}
+
+.main-box-para {
+    font-size: 12px;
+}

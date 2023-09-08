@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- Main Container which contains everything -->
+        <div class="main-container">
+
+            <!-- Top potion of the convertor -->
+            <div class="top">
+                <h1 class="main-heading">Metric/Imperial Unit Conversion</h1>
+                <input type="text" id="main-input">
+                <button id="convert-btn">Convert</button>
+            </div>
+
+            <!-- Bottom portion of the container -->
+            <div class="bottom">
+                <div class="main-box">
+                    <h2 class="main-box-heading">Length (Meter/Feet)</h2>
+                    <p class="main-box-para" id="length-convertor"></p>
+                </div>
+                <div class="main-box">
+                    <h2 class="main-box-heading">Volume (Liters/Gallons)
+                    </h2>
+                    <p class="main-box-para" id="volume-convertor"></p>
+                </div>
+                <div class="main-box">
+                    <h2 class="main-box-heading">Mass (Kilograms/Pounds)</h2>
+                    <p class="main-box-para" id="mass-convertor"></p>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
